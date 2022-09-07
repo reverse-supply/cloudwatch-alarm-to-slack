@@ -8,10 +8,10 @@ In the project root directory execute:
 `aws cloudformation deploy --template-file chatbotForSlack.cf.yml --stack-name slack-chatbot-connection`
 
 ## Resources
-CloudFormation: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html#cfn-chatbot-slackchannelconfiguration-iamrolearn
-Chatbot and Slack: https://docs.aws.amazon.com/chatbot/latest/adminguide/slack-setup.html
+* CloudFormation: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html#cfn-chatbot-slackchannelconfiguration-iamrolearn
+* Chatbot and Slack: https://docs.aws.amazon.com/chatbot/latest/adminguide/slack-setup.html
 
-# OLD WAY: Send CloudWatch Alarms to Slack with AWS Lambda
+# OLD WAY (to be removed later): Send CloudWatch Alarms to Slack with AWS Lambda
 
 Read the full [blog post on cloudonaut.io](https://cloudonaut.io/send-cloudwatch-alarms-to-slack-with-aws-lambda/).
 
