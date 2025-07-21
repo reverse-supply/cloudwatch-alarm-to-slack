@@ -14,8 +14,8 @@ Resources:
     Type: 'AWS::Chatbot::SlackChannelConfiguration'
     Properties:
       ConfigurationName: slack-alerts-cf-based-sandbox
-      SlackChannelId: C04014LS5LM
-      SlackWorkspaceId: T01G8NEU517
+      SlackChannelId: C096QGJKAV8
+      SlackWorkspaceId: T027ZQF1A
       IamRoleArn: arn:aws:iam::117479975591:role/service-role/AWSChatbotSlackAlertingRole
       SnsTopicArns:
         - !Ref SandboxAlertTopic
@@ -23,8 +23,8 @@ Resources:
     Type: 'AWS::Chatbot::SlackChannelConfiguration'
     Properties:
       ConfigurationName: slack-alerts-cf-based-prod
-      SlackChannelId: C02R76BP3R6
-      SlackWorkspaceId: T01G8NEU517
+      SlackChannelId: C097D2CHFT2
+      SlackWorkspaceId: T027ZQF1A
       IamRoleArn: arn:aws:iam::117479975591:role/service-role/AWSChatbotSlackAlertingRole
       SnsTopicArns:
         - !Ref ProdAlertTopic
